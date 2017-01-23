@@ -23,7 +23,27 @@ Plugin 'kien/ctrlp.vim'
 let g:ctrlp_map = '<c-p>'
 let g:ctrlp_cmd = 'CtrlP'
 
+" 缩进
+" Plugin 'nathanaelkane/vim-indent-guides'
+" let g:indent_guides_enable_on_vim_startup = 1
+Plugin 'Yggdroot/indentLine'
+
+" git插件
+Plugin 'tpope/vim-fugitive'
+
 call vundle#end()
+filetype plugin indent on    " required
+" To ignore plugin indent changes, instead use:
+"filetype plugin on
+"
+" Brief help
+" :PluginList       - lists configured plugins
+" :PluginInstall    - installs plugins; append `!` to update or just :PluginUpdate
+" :PluginSearch foo - searches for foo; append `!` to refresh local cache
+" :PluginClean      - confirms removal of unused plugins; append `!` to auto-approve removal
+"
+" see :h vundle for more details or wiki for FAQ
+" Put your non-Plugin stuff after this line
 
 " 编码
 set encoding=utf-8
@@ -53,6 +73,7 @@ set ruler
 " 允许折叠
 set foldenable
 set foldmethod=indent
+set foldlevel=99
 
 " 十字焦点
 set cursorline
