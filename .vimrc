@@ -13,6 +13,10 @@ Plugin 'VundleVim/Vundle.vim'
 " solarized配色
 Plugin 'altercation/vim-colors-solarized'
 
+" 状态栏插件
+Plugin 'vim-airline/vim-airline'
+Plugin 'vim-airline/vim-airline-themes'
+
 " 编码
 set encoding=utf-8
 
