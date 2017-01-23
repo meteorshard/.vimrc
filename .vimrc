@@ -16,6 +16,14 @@ Plugin 'altercation/vim-colors-solarized'
 " 状态栏插件
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
+set laststatus=2
+
+" 文件跳转
+Plugin 'kien/ctrlp.vim'
+let g:ctrlp_map = '<c-p>'
+let g:ctrlp_cmd = 'CtrlP'
+
+call vundle#end()
 
 " 编码
 set encoding=utf-8
