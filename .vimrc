@@ -10,6 +10,9 @@ call vundle#begin()
 " let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
 
+" Python语法检查
+Plugin 'kevinw/pyflakes-vim'
+
 " solarized配色
 Plugin 'altercation/vim-colors-solarized'
 
@@ -62,6 +65,7 @@ set fileformat=unix
 
 " 设置配色
 " set background=dark
+" let g:solarized_termcolors=256
 " colorscheme solarized
 
 " 语法高亮
