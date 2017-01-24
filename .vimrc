@@ -13,6 +13,9 @@ Plugin 'VundleVim/Vundle.vim'
 " Python语法检查
 Plugin 'kevinw/pyflakes-vim'
 
+" 智能缩进
+Plugin 'tmhedberg/SimpylFold'
+
 " solarized配色
 Plugin 'altercation/vim-colors-solarized'
 
@@ -77,7 +80,7 @@ set ruler
 " 允许折叠
 set foldenable
 set foldmethod=indent
-set foldlevel=99
+set foldlevel=2
 
 " 十字焦点
 set cursorline
