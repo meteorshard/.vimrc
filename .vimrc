@@ -13,8 +13,9 @@ Plugin 'VundleVim/Vundle.vim'
 " Python语法检查
 Plugin 'kevinw/pyflakes-vim'
 
-" 智能缩进
+" 智能折叠
 Plugin 'tmhedberg/SimpylFold'
+nnoremap <space> za
 
 " solarized配色
 Plugin 'altercation/vim-colors-solarized'
@@ -30,8 +31,6 @@ let g:ctrlp_map = '<c-p>'
 let g:ctrlp_cmd = 'CtrlP'
 
 " 缩进
-" Plugin 'nathanaelkane/vim-indent-guides'
-" let g:indent_guides_enable_on_vim_startup = 1
 Plugin 'Yggdroot/indentLine'
 
 " git插件
@@ -80,7 +79,7 @@ set ruler
 " 允许折叠
 set foldenable
 set foldmethod=indent
-set foldlevel=2
+set foldlevel=1
 
 " 十字焦点
 set cursorline
