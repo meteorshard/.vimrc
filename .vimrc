@@ -13,6 +13,9 @@ Plugin 'VundleVim/Vundle.vim'
 " Python语法检查
 Plugin 'kevinw/pyflakes-vim'
 
+" 自动补全
+Plugin 'valloric/youcompleteme'
+
 " 智能折叠
 Plugin 'tmhedberg/SimpylFold'
 nnoremap <space> za
@@ -35,6 +38,7 @@ Plugin 'Yggdroot/indentLine'
 
 " git插件
 Plugin 'tpope/vim-fugitive'
+Plugin 'airblade/vim-gitgutter'
 
 call vundle#end()
 filetype plugin indent on    " required
@@ -66,12 +70,11 @@ set autoindent
 set fileformat=unix
 
 " 设置配色
-" set background=dark
-" let g:solarized_termcolors=256
-" colorscheme solarized
-
-" 语法高亮
 syntax on
+let g:solarized_termcolors=256
+set t_Co=256 
+set background=dark
+colorscheme solarized
 
 " 显示标尺
 set ruler
@@ -83,5 +86,5 @@ set foldlevel=1
 
 " 十字焦点
 set cursorline
-" hi CursorLine
+hi CursorLine
 set cursorcolumn
