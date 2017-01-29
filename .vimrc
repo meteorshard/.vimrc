@@ -14,7 +14,7 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'kevinw/pyflakes-vim'
 
 " 自动补全
-Plugin 'valloric/youcompleteme'
+" Plugin 'valloric/youcompleteme'
 
 " 智能折叠
 Plugin 'tmhedberg/SimpylFold'
