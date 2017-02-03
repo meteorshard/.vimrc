@@ -86,5 +86,5 @@ set foldlevel=1
 
 " 十字焦点
 set cursorline
-hi CursorLine
+" hi CursorLine
 set cursorcolumn
