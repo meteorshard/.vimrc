@@ -72,6 +72,7 @@ set fileformat=unix
 " 设置配色
 syntax on
 let g:solarized_termcolors=256
+let g:solarized_termtrans = 1
 set t_Co=256 
 set background=dark
 colorscheme solarized
@@ -86,5 +87,7 @@ set foldlevel=1
 
 " 十字焦点
 set cursorline
-" hi CursorLine
+" hi Cursorline
+hi clear CursorLine
+hi CursorLine gui=underline cterm=underline
 set cursorcolumn
