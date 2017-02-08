@@ -10,6 +10,11 @@ call vundle#begin()
 " let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
 
+" 文件夹
+Plugin 'scrooloose/nerdtree'
+map <F3> :NERDTreeMirror<CR>
+map <F3> :NERDTreeToggle<CR>
+
 " Python语法检查
 Plugin 'kevinw/pyflakes-vim'
 
