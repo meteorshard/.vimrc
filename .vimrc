@@ -75,6 +75,8 @@ set textwidth=79
 set expandtab
 set autoindent
 set fileformat=unix
+" 为不同文件设置不同缩进
+autocmd Filetype javascript setlocal ts=2 sw=2 expandtab
 
 " 设置配色
 syntax on
