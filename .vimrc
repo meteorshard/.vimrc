@@ -23,6 +23,8 @@ Plugin 'kevinw/pyflakes-vim'
 
 " 智能折叠
 Plugin 'tmhedberg/SimpylFold'
+autocmd BufWinEnter *.py setlocal foldexpr=SimpylFold(v:lnum) foldmethod=expr
+autocmd BufWinLeave *.py setlocal foldexpr< foldmethod<
 nnoremap <space> za
 
 " solarized配色
