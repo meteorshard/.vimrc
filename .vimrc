@@ -44,8 +44,10 @@ let g:ctrlp_cmd = 'CtrlP'
 Plugin 'Yggdroot/indentLine'
 
 " git插件
-Plugin 'tpope/vim-fugitive'
 Plugin 'airblade/vim-gitgutter'
+
+" 微信小程序开发插件
+Plugin 'chemzqm/wxapp.vim'
 
 call vundle#end()
 filetype plugin indent on    " required
